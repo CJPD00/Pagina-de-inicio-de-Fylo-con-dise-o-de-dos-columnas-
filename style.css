@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Raleway&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans&family=Raleway&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cabecera{
+
+    display: flex;
+    max-width: 1440px;
+    width: 100%; 
+    font-family: 'Raleway',regular;
+    
+}
+
+.cabecera img{
+
+    margin-top: 4rem;
+    margin-left: 5rem;
+
+}
+
+.cabecera nav{
+   
+    margin-top: 5rem;
+    margin-left: 45rem;
+    margin-right: 5rem;
+    
+}
+
+.c_nav a{
+    margin-right: 2.9rem;
+    text-decoration: none;
+}
+
+.main{
+
+    max-width: 1440px;
+    width: 100%;
+    display: block;
+    
+}
+
+body{
+
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans',regular;
+
+}
+
+.article1{
+
+    display: flex;
+
+}
+
+.article1 section{
+
+    margin-left: 5rem;
+    margin-top: 7rem;
+
+}
+
+.article1 img{
+
+    width: 500px;
+    height: 400px;
+    margin-right: 9rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+
+}
+
+.sa1  h1{
+
+    font-size: 32px;
+
+}
+
+.sa1 p{
+
+    font-size: 17px;
+
+}
+
+.article1 section input:not([type="submit"]){
+
+    padding: 0.5rem;
+    margin-right: .5rem;
+    width: 19rem;
+    color: gray;
+
+}
+
+.article1 section input[type="submit"]{
+
+    padding: 0.5rem;
+    width: 11rem;
+    cursor: pointer;
+    background-color:hsl(224, 93%, 58%) ;
+    border-color: hsl(224, 93%, 58%);
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.i_curve{
+
+    margin-top: 10rem;
+
+}
+
+.article2{
+
+    background-color: hsl(240, 75%, 98%);
+    margin-top: 0;
+
+}
+
+.ilustracion{
+
+    width: 500px;
+    height: 400px;
+
+}
