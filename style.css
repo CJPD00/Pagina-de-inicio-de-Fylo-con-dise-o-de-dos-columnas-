@@ -32,7 +32,7 @@ html,body{
 .cabecera nav{
    
     margin-top: 5rem;
-    margin-left: 45rem;
+    margin-left: 44rem;
     margin-right: 5rem;
     
 }
@@ -121,7 +121,6 @@ body{
 
 .article2{
 
-    background-color: hsl(240, 75%, 98%);
     margin-top: 0;
 
 }
@@ -130,5 +129,156 @@ body{
 
     width: 500px;
     height: 400px;
+    margin-right: 9rem;
+    margin-left: 4rem;
+    margin-top: 3.5rem;
+
+}
+
+.article2 {
+    background-color: hsl(240, 75%, 98%);
+    display: flex;
+    height: 100%;
+}
+
+.article2 section{
+
+    margin-left: 5rem;
+
+}
+
+.sa2_d1{
+
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+    border: 1px solid transparent;
+    background-color: white;
+    width: 328px;
+    height: 200px;
+    box-shadow: 2px 2px 6px 5px rgb(235, 230, 230);
+
+}
+
+.sa2 a{
+    color: rgb(34, 133, 73);
+}
+
+.sa2 h1{
+
+    font-size: 32px;
+
+}
+
+.avatar{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.sa2_d1 p{
+
+    font-size: 13px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+.quotes {
+
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.sa2_d2 {
+
+    margin-left: 1.5rem;
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.ceo{
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.ceo h3{
+
+    font-size: 10px;
+    line-height: 0;
+    margin-bottom: 0.8rem;
+
+}
+
+.ceo h4{
+
+    font-size: 8px ;
+    font-weight: 100;
+    line-height: 0;
+
+}
+
+.login{
+
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    height: 280px;
+
+}
+
+.login_d1{
+
+    width: 30%;
+    margin-left: 5rem;
+    margin-top: 3.5rem;
+
+}
+
+.login h1{
+
+    color: white;
+
+}
+
+.login p{
+
+    color: white;
+    font-size: 13px;
+
+}
+
+.login_d2{
+
+    margin-top:5rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login_d2 input:not([type="submit"]){
+
+    padding: 0.5rem;
+    margin-right: .5rem;
+    width: 29rem;
+    color: gray;
+    margin-bottom: 1rem;
+    border-radius: 2.5px;
+
+}
+
+.login_d2 input[type="submit"]{
+
+    padding: 0.5rem;
+    width: 13rem;
+    cursor: pointer;
+    background-color:hsl(224, 93%, 58%) ;
+    border-color: hsl(224, 93%, 58%);
+    border-radius: 0.3rem;
+    color: white;
 
 }
