@@ -362,3 +362,413 @@ footer section{
 
 }
 
+@media only screen and  (min-width: 375px) and (max-width: 800px) {
+
+
+    .cabecera{
+
+        display: flex;
+        max-width: 800px;
+        width: 100%; 
+        font-family: 'Raleway',regular;
+        
+    }
+
+    .cabecera img{
+
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 80px;
+        height: 30px;
+    
+    }
+
+    .cabecera nav{
+   
+        margin-top: 2.3rem;
+        margin-left: 4.5rem;
+        margin-right: 2rem;
+        
+    }
+
+    .c_nav a{
+        margin-right: 1rem;
+        text-decoration: none;
+    }
+
+    .article1{
+
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+
+    .article1 section{
+
+        margin-left: 2rem;
+        margin-top: 2rem;
+    
+    }
+    
+    .article1 img{
+    
+        width: 300px;
+        height: 200px;
+        margin-top: 8rem;
+        
+    
+    }
+    
+    .sa1  h1{
+    
+        font-size: 28px;
+        text-align: center;
+    
+    }
+    
+    .sa1 p{
+    
+        font-size: 15px;
+        text-align: center;
+    
+    }
+    
+    .article1 section input:not([type="submit"]){
+    
+        padding: 0.5rem;
+        margin-left: 1rem;
+        width: 23rem;
+        color: gray;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .article1 section input[type="submit"]{
+    
+        padding: 0.5rem;
+        width: 23rem;
+        cursor: pointer;
+        background-color:hsl(224, 93%, 58%) ;
+        border-color: hsl(224, 93%, 58%);
+        border-radius: 0.3rem;
+        color: white;
+        margin-left: 1rem;
+
+    }
+
+    .i_curve{
+
+        margin-top: 6rem;
+        width: 100%;
+        height: 80px;
+    
+    }
+
+    .article2{
+
+        margin-top: 0;
+        background-color: hsl(240, 75%, 98%);
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    
+    }
+    
+    .ilustracion{
+    
+        width: 300px;
+        height: 200px;
+        margin-right: 9rem;
+        margin-left: 4rem;
+        margin-top: 3.5rem;
+    
+    }
+    
+    .article2 section{
+    
+        margin-left: 1rem;
+    
+    }
+    
+    .sa2_d1{
+    
+        margin-top: 2.5rem;
+        margin-bottom: 6rem;
+        margin-left: 2.5rem;
+        border: 1px solid transparent;
+        background-color: white;
+        width: 328px;
+        height: 200px;
+        box-shadow: 2px 2px 6px 5px rgb(235, 230, 230);
+    
+    }
+    
+    .sa2 a{
+
+        color: rgb(34, 133, 73);
+        margin-left: 8.5rem;
+        margin-top: 3rem;
+        font-size: 14px;
+
+    }
+    
+    .sa2 h1{
+    
+        font-size: 20px;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    
+    }
+
+    .sa2 p{
+
+        text-align: center;
+        font-size: 15px;
+        color: grey;
+
+    }
+    
+    .avatar{
+    
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    
+    }
+    
+    .sa2_d1 p{
+    
+        font-size: 13px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    
+    }
+    
+    .quotes {
+    
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    
+    }
+    
+    .sa2_d2 {
+    
+        margin-left: 1.5rem;
+        display: flex;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    
+    }
+    
+    .ceo{
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .ceo h3{
+    
+        font-size: 10px;
+        line-height: 0;
+        margin-bottom: 0.8rem;
+    
+    }
+    
+    .ceo h4{
+    
+        font-size: 8px ;
+        font-weight: 100;
+        line-height: 0;
+    
+    }
+
+    .login{
+
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(238, 22%, 44%);
+        height: 500px;
+    
+    }
+    
+    .login_d1{
+    
+        width: 100%;
+        margin-top: 3rem;
+    
+    }
+    
+    .login h1{
+    
+        color: white;
+        font-size: 15px;
+        margin-left: 3rem;
+    
+    }
+    
+    .login p{
+    
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        margin-right: 11rem;
+    
+    }
+    
+    .login_d2{
+    
+        margin-top:1rem;
+        margin-left: 5.5rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    
+    .login_d2 input:not([type="submit"]){
+    
+        padding: 0.4rem;
+        width: 15rem;
+        color: gray;
+        border-radius: 2.5px;
+    
+    }
+    
+    .login_d2 input[type="submit"]{
+    
+        padding: 0.5rem;
+        width: 15rem;
+        cursor: pointer;
+        background-color:hsl(224, 93%, 58%) ;
+        border-color: hsl(224, 93%, 58%);
+        border-radius: 0.3rem;
+        color: white;
+    
+    }
+
+    table{
+
+        color: white;
+        font-size: 14px;
+        table-layout: fixed;
+        border-collapse: collapse;
+        margin-right: 3rem;
+
+    }
+    
+    .table{
+    
+        border: solid 1px rgba(255, 255, 255, 0.2);
+        margin-top:4.5rem;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    
+    }
+    
+    thead{
+        
+        background-color: rgba(243, 140, 210, 0.4);
+    
+    }
+    
+    th{
+    
+        padding: 0.5rem;
+        text-transform: uppercase;
+    
+    }
+    
+    td{
+        padding: 0.5px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+        margin-left: 0.5rem;
+    }
+    
+    .tr_body:hover{
+    
+        background-color: rgba(243, 140, 210, 0.4);
+        cursor: pointer;
+    
+    }
+
+    footer{
+
+        background-color: hsl(243, 87%, 12%);
+        height: 40rem;
+    
+    }
+    
+    footer section{
+    
+        display: flex; 
+        flex-direction: column;
+    
+    }
+    
+    .nav1{
+    
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+        font-size: 13px;
+    
+    }
+    
+    .nav1 a{
+    
+        color: white;
+        text-decoration: none;
+        margin-bottom: 1rem;
+    }
+    
+    .nav2{
+    
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+        font-size: 13px;
+    
+    }
+    
+    .nav2 a{
+    
+        color: white;
+        text-decoration: none;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .logo_f{
+    
+        margin-left: 2.5rem;
+        margin-top: 4rem;
+    
+    }
+    
+    .contacto{
+    
+        color: white;
+        margin-left: 2.5rem;
+        font-size: 13px;
+    
+    }
+    
+    .redes{
+    
+        display: flex;
+        margin-left: 10rem;
+        margin-top: 3rem;
+    
+    }
+    
+    .redes img{
+    
+        width: 30px;
+        height: 30px;
+        margin-right: .5rem;
+    
+    }
+}
+
