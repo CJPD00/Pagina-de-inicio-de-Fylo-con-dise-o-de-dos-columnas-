@@ -16,7 +16,6 @@ html,body{
 .cabecera{
 
     display: flex;
-    max-width: 1440px;
     width: 100%; 
     font-family: 'Raleway',regular;
     
@@ -44,7 +43,6 @@ html,body{
 
 .main{
 
-    max-width: 1440px;
     width: 100%;
     display: block;
     
